@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<menu>
+		<key>Admission</key>
+		<displayName>Admission</displayName>
+		<menus>
+			<menu>
+				<key>ApplicationForm</key>
+				<displayName>Application Form</displayName>
+				<class>com.reddys.IT.client.ui.LoginView</class>
+			</menu>
+			<menu>
+				<key>ApplicationForm-2</key>
+				<displayName>Application Form-2</displayName>
+				<class>com.reddys.IT.client.ui.LoginView</class>
+			</menu>
+			<menu>
+				<key>ApplicationForm-3</key>
+				<displayName>Application Form-3</displayName>
+				<class>com.reddys.IT.client.ui.LoginView</class>
+			</menu>
+		</menus>
+	</menu>
+		<menu>
+		<key>Admission1</key>
+		<displayName>Admission1</displayName>
+		<menus>
+			<menu>
+				<key>ApplicationForm1</key>
+				<displayName>Application Form1</displayName>
+				<class>com.reddys.IT.client.ui.ApplicationForm</class>
+			</menu>
+		</menus>
+	</menu>
+		<menu>
+		<key>Admission2</key>
+		<displayName>Admission2</displayName>
+		<menus>
+			<menu>
+				<key>ApplicationForm2</key>
+				<displayName>Application Form2</displayName>
+				<class>com.reddys.IT.client.ui.ApplicationForm</class>
+			</menu>
+		</menus>
+	</menu>
+</menus>
