@@ -24,6 +24,7 @@ public class ITUI implements EntryPoint {
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
+		System.out.println("entry point");
 		Controller controller = new Controller();
 		controller.execute(RootLayoutPanel.get());
 	}
