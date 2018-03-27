@@ -30,6 +30,12 @@
 			<artifactId>xstream</artifactId>
 			<version>1.4.10</version>
 		</dependency>
+		<dependency>
+			<groupId>com.bulls.scm</groupId>
+			<artifactId>commonvo</artifactId>
+			<version>1.0</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>ITERP</finalName>
@@ -93,8 +99,8 @@
 						<configuration>
 							<tasks>
 								<echo>deploy web app to server</echo>
-								<copy todir="D:\COE\servers\tomcat7\webapps">
-									<fileset dir="D:\COE\Workspacez\ITUI\target">
+								<copy todir="D:\COE\servers\apache-tomcat-6.0.35\webapps">
+									<fileset dir="D:\COE\servers\apache-tomcat-6.0.35\webapps">
 										<include name="*.war" />
 									</fileset>
 								</copy>
